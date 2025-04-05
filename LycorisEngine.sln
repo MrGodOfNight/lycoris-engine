@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.13.35825.156
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LycorisEngine", "Engine\LycorisEngine.csproj", "{1F3517E0-A3FC-4DA2-9DF9-E970147B3390}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Test", "Test\Test.csproj", "{5ACA380F-0FCA-4C81-BC24-B54B8B24C714}"
+	ProjectSection(ProjectDependencies) = postProject
+		{1F3517E0-A3FC-4DA2-9DF9-E970147B3390} = {1F3517E0-A3FC-4DA2-9DF9-E970147B3390}
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1F3517E0-A3FC-4DA2-9DF9-E970147B3390}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1F3517E0-A3FC-4DA2-9DF9-E970147B3390}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1F3517E0-A3FC-4DA2-9DF9-E970147B3390}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1F3517E0-A3FC-4DA2-9DF9-E970147B3390}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5ACA380F-0FCA-4C81-BC24-B54B8B24C714}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5ACA380F-0FCA-4C81-BC24-B54B8B24C714}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5ACA380F-0FCA-4C81-BC24-B54B8B24C714}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5ACA380F-0FCA-4C81-BC24-B54B8B24C714}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {4C451179-E36E-4195-9E72-7C04C1553C11}
+	EndGlobalSection
+EndGlobal
